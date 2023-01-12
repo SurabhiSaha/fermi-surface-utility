@@ -1,13 +1,23 @@
 # fermi-surface-utility
-Get the points over fermi-surface. This code uses python scripts to get the points over fermi surface.
+
+## Function
+This is a collection of codes that can help to -
+- Get the points over fermi-surface. 
+- Get points inside BZ when recriprocal lattice vectors are provided.
 
 ## Inputs:
-1. ".bxsf" file - generated using Quantum Espresso
-2. or, ".bxsf" file - generated using wannier90.
-3. Volumetric data of bands created using any packages or codes (e.g TBmodels)
+- '.bxsf' file - generated using Quantum Espresso
+- '.bxsf' file - generated using wannier90.
+
+## Prerequisite:
+- python3.8
+- pyvista
+- numpy
+- scipy
+- datetime
+- pyprocar
 
 ## Controls:
-1. The band number.
-2. Use dense or light k mesh grid.
-3. Visualize to make sure that correct band is beging plotted.
-4. 
+1. Choose the band number.
+2. Use denser or lighter k mesh grid.
+3. Visualization - ON or OFF.
